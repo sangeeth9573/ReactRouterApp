@@ -1,0 +1,61 @@
+.home-container {
+    text-align: center;
+  }
+  
+  .hero {
+    background-image: url('https://example.com/event-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e65c00;
+  }
+  
+  .event-details {
+    padding: 40px 20px;
+  }
+  
+  .event-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .event-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
